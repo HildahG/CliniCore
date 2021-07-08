@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "807887738291",
+    "project_id": "clinicore-4c9a8",
+    "storage_bucket": "clinicore-4c9a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807887738291:android:5c6ad64bc008307262e7c6",
+        "android_client_info": {
+          "package_name": "com.example.cliniCore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807887738291-kpvqnigvfmosvseor5drkdi8rnna3d9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDcLOBNvB8OsE7GsNQfBUH5NN4OnCgNSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807887738291-kpvqnigvfmosvseor5drkdi8rnna3d9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

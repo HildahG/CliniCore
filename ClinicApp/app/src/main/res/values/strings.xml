@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CliniCore</string>
+    <string-array name="condition_items">
+        <item> Critical</item>
+        <item> Normal</item>
+    </string-array>
+    <string-array name="gender">
+        <item> Female</item>
+        <item> Male</item>
+    </string-array>
+</resources>

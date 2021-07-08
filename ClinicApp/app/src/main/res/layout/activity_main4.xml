@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#f0f0f0"
+	tools:context=".MainActivity6">
+
+	<ScrollView
+		android:id="@+id/scrollView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="20dp"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@+id/textView10"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_marginTop="10dp"
+				android:fontFamily="cursive"
+				android:gravity="center"
+				android:text="#CliniCore"
+				android:textColor="@color/black"
+				android:textSize="36sp"
+				android:textStyle="bold"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent" />
+
+			<TextView
+				android:id="@+id/pantientRecord"
+				android:layout_width="350dp"
+				android:layout_height="60dp"
+				android:layout_marginTop="15dp"
+				android:background="@drawable/rounded_corners"
+				android:clickable="true"
+				android:gravity="center"
+				android:text="Patient's Record"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:visibility="visible"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintHorizontal_bias="0.443"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintRight_toRightOf="parent"
+				app:layout_constraintTop_toBottomOf="@id/textView10"
+				app:layout_constraintVertical_bias="0.048" />
+
+			<TextView
+				android:id="@+id/consultationRecords"
+				android:layout_width="350dp"
+				android:layout_height="60dp"
+				android:layout_marginTop="15dp"
+				android:background="@drawable/rounded_corners"
+				android:gravity="center"
+				android:text="Consultation Record"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:visibility="visible"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintHorizontal_bias="0.163"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@+id/pantientRecord" />
+
+			<TextView
+				android:id="@+id/wardRecord"
+				android:layout_width="350dp"
+				android:layout_height="60dp"
+				android:layout_marginTop="15dp"
+				android:background="@drawable/rounded_corners"
+				android:gravity="center"
+				android:text="Ward Record"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:visibility="visible"
+				app:layout_constraintBottom_toBottomOf="@id/pantientRecord"
+				app:layout_constraintHorizontal_bias="0.443"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintRight_toRightOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				app:layout_constraintVertical_bias="0.048" />
+
+			<TextView
+				android:id="@+id/prescriptionRecord"
+				android:layout_width="350dp"
+				android:layout_height="60dp"
+				android:layout_marginTop="15dp"
+				android:background="@drawable/rounded_corners"
+				android:gravity="center"
+				android:text="Prescription Record"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:visibility="visible"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintHorizontal_bias="0.163"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@+id/wardRecord" />
+
+			<TextView
+				android:id="@+id/vitalRecord"
+				android:layout_width="350dp"
+				android:layout_height="60dp"
+				android:layout_marginTop="15dp"
+				android:background="@drawable/rounded_corners"
+				android:gravity="center"
+				android:text="Vitals Record"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:visibility="visible"
+				app:layout_constraintBottom_toBottomOf="@id/prescriptionRecord"
+				app:layout_constraintHorizontal_bias="0.443"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintRight_toRightOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				app:layout_constraintVertical_bias="0.048" />
+
+			<TextView
+				android:id="@+id/resultsRecord"
+				android:layout_width="350dp"
+				android:layout_height="60dp"
+				android:layout_marginTop="15dp"
+				android:background="@drawable/rounded_corners"
+				android:gravity="center"
+				android:text="Results Record"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:visibility="visible"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintHorizontal_bias="0.163"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@+id/vitalRecord" />
+
+			<TextView
+				android:id="@+id/drugRecord"
+				android:layout_width="350dp"
+				android:layout_height="60dp"
+				android:layout_marginTop="15dp"
+				android:background="@drawable/rounded_corners"
+				android:gravity="center"
+				android:text="Drug Record"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:visibility="visible"
+				app:layout_constraintBottom_toBottomOf="@id/resultsRecord"
+				app:layout_constraintHorizontal_bias="0.443"
+				app:layout_constraintLeft_toLeftOf="parent"
+				app:layout_constraintRight_toRightOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				app:layout_constraintVertical_bias="0.048" />
+
+			<TextView
+				android:id="@+id/medicineRecord"
+				android:layout_width="350dp"
+				android:layout_height="60dp"
+				android:layout_marginTop="15dp"
+				android:background="@drawable/rounded_corners"
+				android:gravity="center"
+				android:text="Medicine Record"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:visibility="visible"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintHorizontal_bias="0.163"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@+id/drugRecord" />
+
+			<Button
+				android:id="@+id/button5"
+				android:layout_width="320dp"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="25dp"
+				android:layout_marginBottom="30dp"
+				android:onClick="true"
+				android:text="Got It!"
+				app:backgroundTint="#FF9800"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintHorizontal_bias="0.494"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toBottomOf="@+id/medicineRecord" />
+
+
+		</LinearLayout>
+	</ScrollView>
+
+</RelativeLayout>
